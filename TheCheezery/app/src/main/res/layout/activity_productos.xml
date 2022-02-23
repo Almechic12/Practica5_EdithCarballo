@@ -8,12 +8,13 @@
     tools:context=".ProductosActivity">
 
     <ImageView
+        android:id="@+id/imgMenu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:src="@drawable/colddrinks" />
 
     <ListView
-        android:id="@+id/litView"
+        android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
